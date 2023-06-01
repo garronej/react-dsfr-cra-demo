@@ -50,7 +50,14 @@ function Root() {
                 <Header
                     brandTop={<>INTITULE<br />OFFICIEL</>}
                     serviceTitle="Nom du site / service"
-                    quickAccessItems={[headerFooterDisplayItem]}
+                    quickAccessItems={[
+                        headerFooterDisplayItem,
+                        {
+                            iconId: "ri-account-circle-line" as any,
+                            linkProps: { href: "#" },
+                            text: "Account"
+                        }
+                    ]}
                     homeLinkProps={{ ...routes.home().link, "title": "Accueil - Nom de l’entité (ministère, secrétariat d‘état, gouvernement)" }}
                     navigation={[
                         {
