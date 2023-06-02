@@ -10,19 +10,29 @@ import { routes } from "./router";
 import { Display, headerFooterDisplayItem } from "@codegouvfr/react-dsfr/Display";
 import { GdprStoreProvider } from "@codegouvfr/react-dsfr/gdpr";
 import { ConsentBanner } from '@codegouvfr/react-dsfr/ConsentBanner';
+import { GlobalStyles } from "tss-react";
 
 startReactDsfr({
     "defaultColorScheme": "system"
 });
 
 declare module "@codegouvfr/react-dsfr/gdpr" {
-    interface RegisterGdprServices { 
+    interface RegisterGdprServices {
         matomo: never;
     }
 }
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
+        <GlobalStyles
+            styles={{
+                "html": {
+                    //NOTE: Always show scrollbar to avoid layout shift when modals are opened
+                    "overflow": "-moz-scrollbars-vertical",
+                    "overflowY": "scroll"
+                }
+            }}
+        />
         <RouteProvider>
             <Root />
         </RouteProvider>
@@ -35,7 +45,7 @@ function Root() {
 
     return (
         <GdprStoreProvider>
-            <ConsentBanner gdprLinkProps={{href: "/mui"}} siteName='Next Test App' services={[
+            <ConsentBanner gdprLinkProps={{ href: "/mui" }} siteName='Next Test App' services={[
                 {
                     name: "matomo",
                     title: "Matomo",
