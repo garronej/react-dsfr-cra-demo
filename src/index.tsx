@@ -5,6 +5,7 @@ import { Home } from "./Home";
 import { Mui } from "./Mui";
 import { useRoute, RouteProvider } from "./router";
 import { Header } from "@codegouvfr/react-dsfr/Header";
+import { Footer } from "@codegouvfr/react-dsfr/Footer";
 import { fr } from "@codegouvfr/react-dsfr";
 import { routes } from "./router";
 import { headerFooterDisplayItem } from "@codegouvfr/react-dsfr/Display";
@@ -96,6 +97,14 @@ function Root() {
                         }
                     })()}
                 </div>
+                <Footer
+                    accessibility="non compliant"
+                    bottomItems={[headerFooterDisplayItem]}
+                    contentDescription={`
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+					labore et dolore magna aliqua. 
+					`}
+                />
             </div>
         </GdprStoreProvider>
     );
