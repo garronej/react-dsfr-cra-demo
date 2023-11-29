@@ -15,13 +15,13 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
-    "tss-react": "^4.8.8",
-    "@codegouvfr/react-dsfr": "^0.74.2",
-    "@mui/material": "^5.13.3",
+    "tss-react": "^4.9.3",
+    "@codegouvfr/react-dsfr": "^1.0.1",
+    "@mui/material": "^5.14.18",
     "@emotion/styled": "^11.11.0",
     "@emotion/react": "^11.11.0",
     "type-route": "^1.0.1",
-    "@mui/icons-material": "^5.11.16"
+    "@mui/icons-material": "^5.14.18"
   },
   "scripts": {
     "start": "react-scripts start",
