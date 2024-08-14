@@ -16,7 +16,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
     "tss-react": "^4.9.10",
-    "@codegouvfr/react-dsfr": "^1.10.13",
+    "@codegouvfr/react-dsfr": "^1.11.3",
     "@mui/material": "^5.14.18",
     "@emotion/styled": "^11.11.0",
     "@emotion/react": "^11.11.0",
