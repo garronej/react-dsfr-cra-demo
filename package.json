@@ -16,7 +16,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
     "tss-react": "^4.9.10",
-    "@codegouvfr/react-dsfr": "^1.11.3",
+    "@codegouvfr/react-dsfr": "^1.34.0",
     "@mui/material": "^5.14.18",
     "@emotion/styled": "^11.11.0",
     "@emotion/react": "^11.11.0",
@@ -29,8 +29,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postinstall": "react-dsfr copy-static-assets",
-    "prestart": "react-dsfr update-icons",
-    "prebuild": "react-dsfr update-icons"
+    "prestart": "react-dsfr optimize-css",
+    "prebuild": "react-dsfr optimize-css"
   },
   "jest": {
     "transformIgnorePatterns": [

@@ -1177,12 +1177,12 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@codegouvfr/react-dsfr@^1.11.3":
-  version "1.11.3"
-  resolved "https://registry.yarnpkg.com/@codegouvfr/react-dsfr/-/react-dsfr-1.11.3.tgz#201c34ce12dcd0a2731f79e44a2d1c016bd4b7cc"
-  integrity sha512-QmCv4jD88688usVBS2nybysgiaQJaVjjgMg81aoCWhEOjyJIM29pAK3XMW2oWm1AFnWh1YidTC1s+GgMQbPjUA==
+"@codegouvfr/react-dsfr@^1.34.0":
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/@codegouvfr/react-dsfr/-/react-dsfr-1.34.0.tgz#f51ba60955fe806e50c63cc4bc0ac59315df6953"
+  integrity sha512-YypvIAblrEOLSoHAT3no2O5CSa00datj/th0LvUiWQj+xKd7ixFCa3JmDCZNcfKRzn/DFsog7VcYqzDNKAxmpA==
   dependencies:
-    tsafe "^1.7.2"
+    tsafe "^1.8.5"
     yargs-parser "^21.1.1"
 
 "@csstools/normalize.css@*":
@@ -9021,10 +9021,10 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-tsafe@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-1.7.2.tgz#0f63d414876287ad01b135f832722f93e22da374"
-  integrity sha512-dAPfQLhCfCRre5qs+Z5Q2a7s2CV7RxffZUmvj7puGaePYjECzWREJFd3w4XSFe/T5tbxgowfItA/JSSZ6Ma3dA==
+tsafe@^1.8.5:
+  version "1.8.12"
+  resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-1.8.12.tgz#68a410b4b7687ef497b1c85904b1215532335c3e"
+  integrity sha512-nFRqW0ttu/2o6XTXsHiVZWJBCOaxhVqZLg7dgs3coZNsCMPXPfwz+zPHAQA+70fNnVJLAPg1EgGIqK9Q84tvAw==
 
 tsconfig-paths@^3.14.1:
   version "3.14.2"
